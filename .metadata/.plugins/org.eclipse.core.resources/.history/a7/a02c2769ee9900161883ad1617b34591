@@ -1,0 +1,11 @@
+
+public class GuessNumber extends java.util.Random {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print(nextInt(10));
+		
+		
+	}
+
+}
