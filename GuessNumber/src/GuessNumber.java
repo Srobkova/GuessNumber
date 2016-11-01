@@ -5,7 +5,7 @@ public class GuessNumber {
 		// TODO Auto-generated method stub
 		
 		
-		int number = 0 + (int)(Math.random() * ((10 - 0) + 1)); //разобраться как работает эта строчка
+		int number = 0 + (int)(Math.random() * ((10 - 0) + 1)); //using math.random is not necessary here
 		System.out.println(number); //for testing
 		
 		Scanner in = new Scanner(System.in);
