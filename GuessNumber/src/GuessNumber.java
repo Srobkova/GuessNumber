@@ -1,12 +1,14 @@
 import java.util.Scanner;
+import java.util.Random;
 public class GuessNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
-		int number = 0 + (int)(Math.random() * ((10 - 0) + 1)); //using math.random is not necessary here
+		Random rand = new Random();
+		int number = rand.nextInt(10);
 		System.out.println(number); //for testing
+		
 		
 		Scanner in = new Scanner(System.in);
 		System.out.print("Input a number from 0 to 10: ");

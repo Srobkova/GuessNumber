@@ -5,8 +5,8 @@ public class GuessNumber {
 		// TODO Auto-generated method stub
 		
 		
-		int number = 0 + (int)(Math.random() * ((10 - 0) + 1));
-		System.out.println(number);
+		int number = 0 + (int)(Math.random() * ((10 - 0) + 1)); //using math.random is not necessary here
+		System.out.println(number); //for testing
 		
 		Scanner in = new Scanner(System.in);
 		System.out.print("Input a number from 0 to 10: ");
